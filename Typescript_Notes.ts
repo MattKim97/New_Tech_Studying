@@ -15,3 +15,25 @@ console.log(addNumbers("5","6"))
 // typescript tells us that we should only put integers instead of a string, instead of having to type out pseudocode
 
 
+//TypeScript Types
+
+/*
+boolean => boolean true,false
+number => number 10,1.5
+string => string "hi", 'hello', `aloha` double single and backticks all used
+
+
+Typescript Types
+Boolean type
+Number type
+String type
+Object type
+Array type
+Tuple type
+Enum type
+Any type
+Union type
+Literal type
+Function type
+Unknown type
+*/
