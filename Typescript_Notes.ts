@@ -37,3 +37,12 @@ Literal type
 Function type
 Unknown type
 */
+
+// Assigning Types
+
+
+let age: number = 100
+let firstName:string = "angela"
+let busy:boolean  = true
+
+//when assigning types can only match the data type to the type matched in the variable
