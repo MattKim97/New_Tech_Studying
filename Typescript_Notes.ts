@@ -46,3 +46,7 @@ let firstName:string = "angela"
 let busy:boolean  = true
 
 //when assigning types can only match the data type to the type matched in the variable
+
+let example: bigint = 100n
+
+console.log(example)
