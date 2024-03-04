@@ -5,9 +5,9 @@
 
 //Types in javascript
 
-function addNumbers ( a,b) {
-    return a + b
-}
+// function addNumbers ( a,b) {
+//     return a + b
+// }
 
 console.log(addNumbers("5","6"))
 
@@ -50,3 +50,17 @@ let busy:boolean  = true
 let example: bigint = 100n
 
 console.log(example)
+
+// const screen = document.querySelector('.screen  ')
+// in-order to compile   typescript can use Scrimba  or download the typescript package and then use tsc - typescript name
+
+
+// function addNumbers(a,b) {
+//     screen.innerHtml = a + b
+// }
+
+// hover over code shows type= any can be any time so we can change what we want to put in there
+
+// function addNumbers(a:number,b:number) {
+//     screen.innerHtml = a + b
+// }
