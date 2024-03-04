@@ -104,3 +104,13 @@ function showReviewTotal(value: number, reviewer: string, isLoyalty: boolean) {
 showReviewTotal(reviews.length, reviews[0].name, reviews[0].loyaltyUser)
 
 */
+//type inference typescript understand which type u have for each variable
+
+const something = 23
+
+// use let infers the type of the variable *number* while const locks it as the value
+// typescript will assign type any if it does not know the type of the variable
+
+let anotherexample: string
+
+anotherexample = "someone"
