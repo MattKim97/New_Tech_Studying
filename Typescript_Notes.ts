@@ -9,7 +9,7 @@
 //     return a + b
 // }
 
-console.log(addNumbers("5","6"))
+// console.log(addNumbers("5","6"))
 
 //gives 56 instead of 11 like we would rather have
 // typescript tells us that we should only put integers instead of a string, instead of having to type out pseudocode
@@ -64,3 +64,11 @@ console.log(example)
 // function addNumbers(a:number,b:number) {
 //     screen.innerHtml = a + b
 // }
+
+// can use .toString() and parseInt() to change the type of the variable to whatever is needed  
+
+// function showReviewTotal (value : number) {
+//     reviewTotalDisplay.innerHTML = value.toString()
+// }
+
+// how to make sure to only accept numbers in ur function
