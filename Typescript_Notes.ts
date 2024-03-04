@@ -114,3 +114,43 @@ const something = 23
 let anotherexample: string
 
 anotherexample = "someone"
+
+
+//Object Types
+
+//can define what type makes up an object
+
+/*const you: object = {
+    userName: 'Bobby', // string
+    isReturning: true, // boolean
+ }
+
+ */
+
+ // infers the type of all values for each key in the object
+ //object types are almost like javascript objects but end with a semi-colon
+
+ // console.log(you.userName) cannot do this needs to be more specialized
+
+ const you: {
+    userName: string; // string
+    isReturning: boolean; // boolean
+    age: number;
+ } = {
+    userName: 'Bobby', // string
+    isReturning: true, // boolean
+    age: 23
+ }
+
+ // if you put a specific value within the object used for type inference you must use that value for
+ // the key or else typescript will give an error
+ 
+ /*
+For example
+
+const you: {
+    usernName :"Bobby"  
+} = {
+    usernName: "Bobb"
+ } this will throw an error since it must be "Bobby" for the key usernName instead of "Bobb"
+ */
