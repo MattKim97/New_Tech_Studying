@@ -154,3 +154,18 @@ const you: {
     usernName: "Bobb"
  } this will throw an error since it must be "Bobby" for the key usernName instead of "Bobb"
  */
+
+ //Array Type
+
+ // can store anything in arrays
+
+ // in JS arrays are a type of object, in typescript can choose to specify the type of the elements in the array
+
+
+ let names: string[] = ['bobby', 'tammy', 'katie']
+
+ // this is because typescript infers that this array is full of strings
+ // if you put a number in the array it will throw an error
+// if u want to put numbers as wel need to use a union type
+
+let namesNums: (string | number)[] = ['bobby', 'tammy', 'katie', 23]
