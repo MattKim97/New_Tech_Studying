@@ -169,3 +169,7 @@ const you: {
 // if u want to put numbers as wel need to use a union type
 
 let namesNums: (string | number)[] = ['bobby', 'tammy', 'katie', 23]
+
+// an array of objects would be :{name:string;stars:number;loyaltyUser:boolean;date:string}[]
+
+// the array of objects then must follow the object format within the type, as well as all the types for each key in the object
