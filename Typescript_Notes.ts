@@ -229,4 +229,4 @@ const exmapleTup : [string,string,string,number] = ['example string', 'example s
 // the commented our example will throw and error because the first element in the tuple is not a string
 
 // let currentLocation : [string,string,string] = ["Lancaster" , "9:42" , "54F"]
-// footer.innerHTML = currentLocation.toString()
+// footer.innerHTML = currentLocation[0] + ' ' + currentLocation[1] + ' ' + currentLocation[2] 'deg'
