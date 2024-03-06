@@ -219,3 +219,14 @@ const properties :{
 
 //Tuple Types
 
+// a fixed length array with a specific type for each element
+// it is not a normal array
+
+// const example: [string, number] = ['example string', 100]
+
+const exmapleTup : [string,string,string,number] = ['example string', 'example string', 'example string', 100]
+// const exmapleTup : [string,string,string,number] = [200, 'example string', 'example string', 100]
+// the commented our example will throw and error because the first element in the tuple is not a string
+
+// let currentLocation : [string,string,string] = ["Lancaster" , "9:42" , "54F"]
+// footer.innerHTML = currentLocation.toString()
