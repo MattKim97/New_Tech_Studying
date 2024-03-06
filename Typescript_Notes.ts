@@ -173,3 +173,49 @@ let namesNums: (string | number)[] = ['bobby', 'tammy', 'katie', 23]
 // an array of objects would be :{name:string;stars:number;loyaltyUser:boolean;date:string}[]
 
 // the array of objects then must follow the object format within the type, as well as all the types for each key in the object
+
+// Properties
+//array of objects
+const properties :{
+    image: string;
+    title: string;
+    pricePerNight: number;
+    addressFirstLine: string;
+    town: string;
+    postCode: number;
+    country: string;
+    contact: string;
+    avaliablity: boolean;
+}[] = [
+    {
+        image: 'https://www.placecage.com/200/300',
+        title: 'Cage Villa',
+        pricePerNight: 100,
+        addressFirstLine: '123 Cage Lane',
+        town: 'Cage City',
+        postCode: 12345,
+        country: 'Cage Country',
+        contact: ' 123-456-7890',
+        avaliablity: true
+    }
+]
+
+
+// export function populateProperties(array){
+//     const list = document.createElement("ul")
+//     propertiesDisplay.appendChild(list)
+//     for (let i = 0; i < array.length; i++){
+//         const liNode = document.createElement("li")
+//         const image = document.createElement("img")
+//         const title = document.createElement("div")
+//         image.setAttribute('src',properties[i].image)
+//         title.innerHTML = array[i].title
+//         liNode.appendChild(image)
+//         liNode.appendChild(title)
+//         list.appendChild(liNode)
+//     }
+// }
+
+
+//Tuple Types
+
