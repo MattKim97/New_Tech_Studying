@@ -230,3 +230,18 @@ const exmapleTup : [string,string,string,number] = ['example string', 'example s
 
 // let currentLocation : [string,string,string] = ["Lancaster" , "9:42" , "54F"]
 // footer.innerHTML = currentLocation[0] + ' ' + currentLocation[1] + ' ' + currentLocation[2] 'deg'
+
+// The Enum type
+
+// a way of giving more friendly names to sets of numeric values
+
+// enum Permissions {
+//     ADMIN,
+//     READ_ONLY,
+// }
+
+
+// Any Type
+
+// super flexible allows us to assign any particular value to a variable
+// can be used to avoid errors when you do not know the type of a variable
