@@ -279,3 +279,6 @@ function add ( first: number, second: number) : number {
 // used when a function does not return anything
 // can only assign undefined or null to a variable of type void
 // function can only be void or any other type cannot put undefined type, unless you specifically return undefined in the function
+
+
+//week 2 quiz passed 100%
