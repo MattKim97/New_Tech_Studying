@@ -245,3 +245,7 @@ const exmapleTup : [string,string,string,number] = ['example string', 'example s
 
 // super flexible allows us to assign any particular value to a variable
 // can be used to avoid errors when you do not know the type of a variable
+//any[] allows us to accept any type of value in an array
+// meaning we can have two different types of objects in the same array
+// better to use than union if you do not know the type of the variable
+// avoid using any as much as possible because it defeats the purpose of typescript
