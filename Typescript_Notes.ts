@@ -249,3 +249,19 @@ const exmapleTup : [string,string,string,number] = ['example string', 'example s
 // meaning we can have two different types of objects in the same array
 // better to use than union if you do not know the type of the variable
 // avoid using any as much as possible because it defeats the purpose of typescript
+
+
+// Union Type
+
+// allows us to store a value of one or serval types in a single variable
+// if only want to allow numbers or strings for a value 
+
+// let example : (number | string) = "example"
+
+
+// Literal Type
+// can allow an exact value to be used, number boolean or string
+// can be used to restrict the values that a variable can take
+// can be used with union types
+// type Price = 45 | 100 | 200 | 300 this is known as a type alias want to declare type outside of the variable
+// therefore price must be one of these four values
