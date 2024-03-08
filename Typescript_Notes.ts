@@ -265,3 +265,17 @@ const exmapleTup : [string,string,string,number] = ['example string', 'example s
 // can be used with union types
 // type Price = 45 | 100 | 200 | 300 this is known as a type alias want to declare type outside of the variable
 // therefore price must be one of these four values
+
+//Function Types
+// can define what type of function can be assigned to a variable
+// can define the type of the parameters and the return type of the function
+// can also define the type of the function itself
+
+function add ( first: number, second: number) : number {
+    return first + second
+} // can only return a number
+
+//Void Type
+// used when a function does not return anything
+// can only assign undefined or null to a variable of type void
+// function can only be void or any other type cannot put undefined type, unless you specifically return undefined in the function
