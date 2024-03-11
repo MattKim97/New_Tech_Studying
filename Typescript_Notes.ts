@@ -336,3 +336,5 @@ class MainImage{
 
 // need to define the type of the parameters in the class before the constructor cannot simply just add the 
 // parameters straight into the constructor
+
+// Week 3 Material Completed Quiz 100% passed
