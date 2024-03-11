@@ -309,3 +309,11 @@ const examples: Example[] = [{
     age: 23,
     isBusy: true
 }]
+
+//Modules
+
+// modules are everything you can import and export in typescript
+// can use modules to organize your code into seperate files
+// can use import and export to use code from other files
+// can use import * as name from './name' to import everything from a file
+// can use export default to export a single value from a file needs no curly braces when importing
