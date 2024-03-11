@@ -282,3 +282,13 @@ function add ( first: number, second: number) : number {
 
 
 //week 2 quiz passed 100%
+
+
+//Week 3 Advanced Typescript Features
+
+//File Organizations
+
+// keep enums in a seperate file, and import them into the file you want to use them in
+// keeping types in a seperate file is also a good idea
+
+// do this for Readability, Reusability, and Maintainability
