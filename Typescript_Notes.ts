@@ -292,3 +292,20 @@ function add ( first: number, second: number) : number {
 // keeping types in a seperate file is also a good idea
 
 // do this for Readability, Reusability, and Maintainability
+
+
+// Interfaces
+
+// if type types are similar, can use interfaces to define the structure of the object
+
+interface Example {
+    name: string;
+    age: number;
+    isBusy: boolean;
+}
+
+const examples: Example[] = [{
+    name: "example",
+    age: 23,
+    isBusy: true
+}]
