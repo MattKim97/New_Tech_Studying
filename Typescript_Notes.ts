@@ -317,3 +317,22 @@ const examples: Example[] = [{
 // can use import and export to use code from other files
 // can use import * as name from './name' to import everything from a file
 // can use export default to export a single value from a file needs no curly braces when importing
+
+// Classes
+
+// classes are a blueprint for creating objects
+class MainImage{
+    reviews: Example[] = []
+    src: string
+    title: string
+    constructor(reviews,src,title){
+        this.reviews = reviews
+        this.src = src
+        this.title = title
+
+    }
+}
+
+
+// need to define the type of the parameters in the class before the constructor cannot simply just add the 
+// parameters straight into the constructor
