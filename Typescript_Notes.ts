@@ -338,3 +338,13 @@ class MainImage{
 // parameters straight into the constructor
 
 // Week 3 Material Completed Quiz 100% passed
+
+
+//Week 4 Styling
+
+// Wrapping up our Dashboard
+// Style the 'Get Reviews' Button
+// Make the button green
+// Make the text white
+// Give the button a 5px border radius
+// Make the button turn yellow on hover
