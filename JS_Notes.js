@@ -147,3 +147,16 @@ The Object.defineProperty() method defines a new property directly on an object,
 
 
 */
+
+// forEach is just like a for loop for an array
+//reduce method
+
+const items = [{name: 'bike', price: 100}, {name: 'TV', price: 200}, {name: 'Album', price: 10}, {name: 'Book', price: 5}, {name: 'Phone', price: 500}, {name: 'Computer', price: 1000}, {name: 'Keyboard', price: 25}]
+
+
+///currentTotal is the accumulator in a reduce method the accumulator is the value that is returned each time the function is called
+const total = items.reduce((currentTotal , item) => {
+    return item.price + currentTotal
+},0)
+
+console.log(total)
