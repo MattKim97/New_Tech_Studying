@@ -159,4 +159,9 @@ const total = items.reduce((currentTotal , item) => {
     return item.price + currentTotal
 },0)
 
-console.log(total)
+console.log(total)// 1840
+
+
+// the includes method is used to check if an array includes a certain value
+const includes = items.includes({name: 'Book', price: 5})
+console.log(includes) // false
