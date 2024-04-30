@@ -168,3 +168,14 @@ console.log(includes) // false
 
 //interview asked between strict and loose equality
 // asked if empty arrays equal each other
+
+var lengthOfLastWord = function(s) {
+    let arr = s.split(" ")
+    let filterArr = arr.filter((word) => word !== "")
+    return filterArr[filterArr.length - 1].length
+};
+
+/* split method is used to split a string into an array of substrings, and returns the new array.
+filter method is used to create a new array with all elements that pass the test implemented by the provided function.
+length property returns the length of a string.
+*/
