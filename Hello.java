@@ -17,3 +17,11 @@ when writing code, our editor, will try to guess what we are going to do next, w
 such as variables, etc etc.
 can create an instance of a class and then hover over the variable, we will get the documentation of what that instance is
  */
+
+public class Hello {
+
+    public static void main(String[] args) {
+        System.out.print("Hello Hello !");
+    }
+
+}
