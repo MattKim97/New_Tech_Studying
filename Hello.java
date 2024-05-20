@@ -34,4 +34,14 @@ public class Hello {
  }
 
  usually want a main class and a main function
+
+ each function is a block of code
+ a function within a class is a method
+    a method is a function that belongs to a class
+    a class is a blueprint for an object
+    an object is an instance of a class
+    a class can have many methods
+    a method can have many functions
+    a function can have many lines of code
+    
  */
