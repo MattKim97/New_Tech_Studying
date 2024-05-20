@@ -43,5 +43,23 @@ public class Hello {
     a class can have many methods
     a method can have many functions
     a function can have many lines of code
-    
+
+want to start each function with what it returns
+such as void, int, string, etc
+void means it does not return anything
+int means it returns an integer
+string means it returns a string
+
+public means it can be accessed from anywhere
+
+static means it belongs to the class, not an instance of the class
+    can be called without creating an instance of the class
+    can be called from the class itself
+    can be called from the instance of the class
+
+main is the entry point of the program
+    the program will start at the main function
+    the main function is the first function that will be called
+    the main function is the first function that will be executed
+    the main function is the first function that will be run
  */
