@@ -25,3 +25,13 @@ public class Hello {
     }
 
 }
+
+/*
+ class{
+    function{
+
+    }
+ }
+
+ usually want a main class and a main function
+ */
